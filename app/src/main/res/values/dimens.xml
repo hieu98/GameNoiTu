@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!-- dp -->
     <dimen name="dp_300">300dp</dimen>
     <dimen name="dp_200">200dp</dimen>
     <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+<!-- sp-->
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_13">13sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="sp_30">30sp</dimen>
 </resources>

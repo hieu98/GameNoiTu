@@ -21,7 +21,7 @@ class MenuFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_menu, container, false)
-
+        view.setBackgroundResource(R.drawable.b1)
         view.btn_play.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.play_fragment)
         }

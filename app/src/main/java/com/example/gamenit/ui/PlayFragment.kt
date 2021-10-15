@@ -21,7 +21,7 @@ class PlayFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_play, container, false)
-
+        view.setBackgroundResource(R.drawable.b5)
         view.btn_end.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.end_fragment)
         }

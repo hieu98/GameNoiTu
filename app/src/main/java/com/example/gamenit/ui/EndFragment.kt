@@ -21,7 +21,7 @@ class EndFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_end, container, false)
-
+        view.setBackgroundResource(R.drawable.b4)
         view.btn_backmenu.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.fragment_menu)
         }

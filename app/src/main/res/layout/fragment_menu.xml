@@ -7,13 +7,12 @@
     tools:context=".ui.MenuFragment"
     android:id="@+id/fragment_menu">
 
-    <TextView
+    <ImageView
         android:id="@+id/img_logo"
-        android:layout_width="@dimen/dp_300"
-        android:layout_height="@dimen/dp_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/dp_100"
-        android:background="@drawable/textview_background" />
+        android:layout_marginTop="@dimen/dp_100" />
 
     <Button
         android:id="@+id/btn_play"
@@ -21,11 +20,13 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
         android:layout_marginTop="@dimen/dp_100"/>
 
     <Button
         android:id="@+id/btn_out"
         android:text="Thoát"
+        android:background="@drawable/btn_background"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

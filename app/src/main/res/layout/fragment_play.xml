@@ -7,18 +7,35 @@
     tools:context=".ui.PlayFragment"
     android:id="@+id/play_fragment">
 
-    <TextView
-        android:id="@+id/tv_1"
-        android:text="Hihi"
-        android:textSize="30dp"
-        android:textColor="@color/white"
-        android:layout_centerInParent="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/btn_setting"
+        android:src="@drawable/ic_baseline_settings_24"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"/>
 
+    <TextView
+        android:id="@+id/tv_debai"
+        android:layout_marginTop="@dimen/dp_100"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp_30" />
+
+    <EditText
+        android:id="@+id/edt_dapan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_100"
+        android:background="@drawable/border"
+        android:layout_below="@+id/tv_debai"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"/>
     <Button
         android:id="@+id/btn_end"
-        android:layout_below="@+id/tv_1"
+        android:layout_below="@+id/edt_dapan"
         android:layout_marginTop="@dimen/dp_100"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
